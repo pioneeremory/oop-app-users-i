@@ -10,3 +10,8 @@ class Car:
     
     def stop(self):
         print(f"You stopped driving the {self.model}")
+
+    def describe(self):
+        print(f"You are currently viewing the {self.year} {self.color} {self.model}")
+
+    
